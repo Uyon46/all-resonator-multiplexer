@@ -1,4 +1,10 @@
 theme: jekyll-theme-leap-day
 
+menu:
+  Home: /
+  Archives: /archives
+  
 title: [Library of All-resonator Diplexer and Multiplexers]
 description: [Benchmark test problems of coupling matrix synthesis of all-resonator diplexers and multiplexers]
+
+
