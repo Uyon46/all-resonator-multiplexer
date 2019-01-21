@@ -4,7 +4,7 @@ layout: default
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
-\[{f_4} = \frac{{\max (P{B_1} - ( - 20),0)}}{{20}} + \frac{{\max (P{B_2} - ( - 20),0)}}{{20}}\]
+
 
 [Link to another page](./another-page.html).
 
