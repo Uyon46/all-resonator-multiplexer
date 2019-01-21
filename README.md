@@ -2,7 +2,7 @@
 
 ### Example 1
 
-![Topology of topology example 1](https://github.com/Uyon46/coupling-matrix-multiplexer1/blob/master/topo_example1.png)
+![Topology of topology example 1](https://github.com/Uyon46/coupling-matrix-multiplexer1/blob/master/topo_example1.bmp)
 
 You can use the [editor on GitHub](https://github.com/Uyon46/coupling-matrix-multiplexer/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
