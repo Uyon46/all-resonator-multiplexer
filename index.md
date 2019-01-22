@@ -8,7 +8,7 @@ layout: default
 
 ### Figure of topology
 
-![topo_example1](https://github.com/Uyon46/all-resonator-multiplexer/blob/master/topo_example1.png)
+![topo_example1](https://github.com/Uyon46/all-resonator-multiplexer/raw/master/topo_example1.png)
 
 ### Specificatiion
 
