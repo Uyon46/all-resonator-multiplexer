@@ -20,35 +20,51 @@ The channel filter coupled with P2 occupies the Channel 4 and the channel filter
 
 Based on the normalized specification, the objective function is defined as
 
-$ e = m c^2 $ 
-
-![](http://latex.codecogs.com/gif.latex?\\frac{\\partial J}{\\partial \\theta_k^{(j)}}=\\sum_{i:r(i,j)=1}{\\big((\\theta^{(j)})^Tx^{(i)}-y^{(i,j)}\\big)x_k^{(i)}}+\\lambda \\xtheta_k^{(j)})
-
-
-![](http://latex.codecogs.com/gif.latex?\\frac{max((PB_1-(-20),0)}{20}+\frac{max((PB_2-(-20),0)}{20})
-
-![](http://latex.codecogs.com/gif.latex?\\frac{1}{1+sin(x)})
-
-
-
-
-
-
-
-
-
-### Specificatiion
-
-
+***
 
 ## Example 2
 
-
 ![topo_example2](https://github.com/Uyon46/all-resonator-multiplexer/raw/master/example2.jpg)
 
+Example 2 is a 10-resonator diplexer with asymmetric channel responses. The topology was introduced in [2]. The normalized specifications are
 
+* _Channel 1_: Passband: (−1, −0.661); Return loss level: 20dB.
+* _Channel 2_: Passband: (0.709, 1.0); Return loss level: 20dB. 
+* Isolation levels within passbands are better than 80dB.
+
+The branch coupled with P2 occupies the Channel 1 while the one coupled with P3 occupies the Channel 2. 
+The external quality factors are qe1 = 3.0818, qe2 = 5.7326 and qe3 = 6.6648. 
+
+Based on the normalized specification, the objective function is defined as
+
+***
+
+## Example 3
+
+![topo_example3](https://github.com/Uyon46/all-resonator-multiplexer/raw/master/example3.jpg)
+
+Example 3 is a 9-resoantor diplexer with cross-couplings in two channels which make the optimization more difficult than the first two examples. This topology was proposed in [3]. The normalized specifications are 
+
+* _Channel 1_: Passband: (−1, −0.203); Return loss level is better than 20dB;
+* _Channel 2_: Passband: (−0.026, 1); Return loss level: 20dB;
+* Isolation levels within passbands are better than 30dB.
+
+The channel filter coupled with P2 occupies the Channel 1 while the other channel filter occupies the Channel 2. The external quality factors are qe1 = 1.0475, qe2 = 2.3395 and qe3 = 1.8969. Based on the normalized specifications, the objective function is defined as 
+
+## Example 4
+
+![topo_example4](https://github.com/Uyon46/all-resonator-multiplexer/raw/master/example3.jpg)
+
+Example 4 is a 12-order diplexer. Existing the shared resonator 4, the topology of example 4 contains 4 cross-couplings. and the specifications demand high isolations within the passband and narrow guard band. The main ideas of this topology were referred to [4].
+
+The normalized specifications of example 4 are 
 
 [1] X. Shang, Y. Wang, W. Xia, and M. J. Lancaster, "Novel Multiplexer Topologies Based on All-Resonator Structures," IEEE Transactions on Microwave Theory and Techniques, vol. 61, no. 11, pp. 3838-3845, 2013.
+[2]	B. Liu, H. Yang, and M. J. Lancaster, “Global optimization of micro-wave filters based on a surrogate model-assisted evolutionary algorithm,” IEEE Trans. Microw. Theory Techn., vol. 65, no. 6, pp. 1976–1985, Jun. 2017.
+[3] Y. Wu, Y. Wang and E. A. Ogbodo, "Microstrip wideband diplexer with narrow guard band based on all-resonator structures," in 2016 46th Eu-ropean Microwave Conference (EuMC), London, United Kingdom, 2016, pp. 1163-1166.
+[4] Y. Wu, R. Wu and Y. Wang, “A Compact Coupling Structure for Di-plexers and Filtering Power Dividers,” Progress In Electromagnetics Re-search, vol. 69, pp. 161-170, 2018
+
+
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
