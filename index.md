@@ -5,9 +5,9 @@ layout: default
 
 # Examples list
 
-[Example1](./Example1.md).
 
-## Example 1
+
+## [Example1](./Example1.md)  
 ![topo_example1](https://github.com/Uyon46/all-resonator-multiplexer/raw/master/topo_example1.jpg)
 
 The example 1 is a 16-resonator multiplexer with symmet-rical Chebyshev responses, which was described in [1]. The normalized specifications are 
@@ -24,9 +24,9 @@ Based on the normalized specification, the objective function is defined as
 
 ***
 
-[Example2](./Example2.md).
 
-## Example 2
+
+## [Example2](./Example2.md)  
 
 ![topo_example2](https://github.com/Uyon46/all-resonator-multiplexer/raw/master/example2.jpg)
 
@@ -44,9 +44,9 @@ Based on the normalized specification, the objective function is defined as
 ***
 
 
-[Example3](./Example3.md).
 
-## Example 3
+
+## [Example3](./Example3.md)  
 
 ![topo_example3](https://github.com/Uyon46/all-resonator-multiplexer/raw/master/topo_example3.jpg)
 
@@ -59,33 +59,52 @@ Example 3 is a 9-resoantor diplexer with cross-couplings in two channels which m
 The channel filter coupled with P2 occupies the Channel 1 while the other channel filter occupies the Channel 2. The external quality factors are qe1 = 1.0475, qe2 = 2.3395 and qe3 = 1.8969. Based on the normalized specifications, the objective function is defined as 
 
 
-[Example4](./Example4.md).
 
-## Example 4
+
+## [Example4](./Example4.md)  
 
 ![topo_example4](https://github.com/Uyon46/all-resonator-multiplexer/raw/master/topo_example4.jpg)
 
 Example 4 is a 12-order diplexer. Existing the shared resonator 4, the topology of example 4 contains 4 cross-couplings. and the specifications demand high isolations within the passband and narrow guard band. The main ideas of this topology were referred to [4].
 
 The normalized specifications of example 4 are 
+* _Channel 1_: Passband: (−1, −0.1); Return loss level: 20dB; 
+* _Channel 2_: Passband: (0.2, 1.0); Return loss level: 20dB;
+* Isolation levels within the passbands are better than 60dB.
+
+In the topology, the branch coupled with port P2 occupies the Channel 1 while another branch occupied the Channel 2. The external quality factors are obtained in advance, which are qe1 = 1.1733, qe2 = 2.2145 and qe3 = 2.4955. 
 
 
-[Example5](./Example5.md).
-
-[Example6](./Example6.md).
+***
 
 
-## Example 5
+## [Example5](./Example5.md)  
 
 ![topo_example5](https://github.com/Uyon46/all-resonator-multiplexer/raw/master/topo_example5.jpg)
 
-Example 5 is a triplexer which is shown in Fig. 11. The specifications are
-•	Channel 1: Passband: (−1, −0.6); Return loss level is better than 20 dB;
-•	Channel 2: Passband: (−0.25, 0.25); Return loss level is better than 20 dB; 
-•	Channel 3: Passband: (0.4,1); Return loss level is better than 20 dB
-•	Isolation levels within passbands are better than 30dB.
-    The number of variables is 35. The branch connected with P2 occupies the Channel 1, the branch connected with P3 occupies the Channel 2. The rest one occupies the Channel 3. The external quality factors are qe1 = 1.3253, qe2 = 4.9700, qe3 = 3.9760 and qe4 =3.3133. The variables in each group is shown in Table XV. The variables with hint values are listed in the Table XVI.
+Example 5 is a 18-resonator triplexer. The normalized specifications are
+* _Channel 1_: Passband: (−1, −0.6); Return loss level is better than 20 dB;
+* _Channel 2_: Passband: (−0.25, 0.25); Return loss level is better than 20 dB; 
+* _Channel 3_: Passband: (0.4,1); Return loss level is better than 20 dB;
+* Isolation levels within passbands are better than 30dB.
 
+The number of variables is 35. The branch connected with P2 occupies the Channel 1, the branch connected with P3 occupies the Channel 2. The rest one occupies the Channel 3. The external quality factors are qe1 = 1.3253, qe2 = 4.9700, qe3 = 3.9760 and qe4 =3.3133. According to the normalized specification, the objective function is defined as
+
+$ a+b=1 $
+
+
+
+## [Example6](./Example6.md)   
+![topo_example6](https://github.com/Uyon46/all-resonator-multiplexer/raw/master/topo_example6.jpg)
+
+Example 6 is a triplexer which is shown in Fig. 11. The specifications are
+
+* _Channel 1_: Passband: (−1, −0.578); Return loss level is better than 20 dB;
+* _Channel 2_: Passband: (−0.485, −0.051); Return loss lev-el is better than 20 dB; 
+* _Channel 3_: Passband: (0.684,1); Return loss level is bet-ter than 20 dB;
+* Isolation levels within passbands are better than 30dB.
+
+The number of variables is 27. The branch connected with P2 occupies the Channel 1, the branch connected with P3 occpies the Channel 2 and the rest one occupies the Channel 3. The external quality factors are qe1 = 1.5191, qe2 = 4.8496, qe3 = 3.8068 and qe4 = 5.2794. The variables and group division are listed in Table XII. The variables with hint values are listed in the Table XVIII
 
 
 
