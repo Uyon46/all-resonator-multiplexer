@@ -1,3 +1,15 @@
+<head>
+    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+            inlineMath: [['$','$']]
+            }
+        });
+    </script>
+</head>
+
 ---
 layout: default
 ---
@@ -19,6 +31,8 @@ The example 1 is a 16-resonator multiplexer with symmet-rical Chebyshev response
 The channel filter coupled with P2 occupies the Channel 4 and the channel filter coupled with P3 occupies the Channel 3. The channel filters connected with P4 and P5 are symmetric to that of P3 and P2, respectively. The external quality factors are calculated in advance, which are qe1 = 1.8628, qe2 = qe3 = qe4 = qe5 = 7.4512.
 
 Based on the normalized specification, the objective function is defined as
+
+![](http://latex.codecogs.com/gif.latex?\\frac{\\partial J}{\\partial \\theta_k^{(j)}}=\\sum_{i:r(i,j)=1}{\\big((\\theta^{(j)})^Tx^{(i)}-y^{(i,j)}\\big)x_k^{(i)}}+\\lambda \\xtheta_k^{(j)})
 
 
 ![](http://latex.codecogs.com/gif.latex?\\frac{max((PB_1-(-20),0)}{20}+\frac{max((PB_2-(-20),0)}{20})
