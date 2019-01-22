@@ -14,3 +14,7 @@ The external quality factors are qe1 = 3.0818, qe2 = 5.7326 and qe3 = 6.6648.
 Based on the normalized specification, the objective function is defined as
 
 ***
+
+
+
+[back](./)
