@@ -8,7 +8,8 @@ layout: default
 
 ### Figure of topology
 
-![Topology 1] (https://github.com/Uyon46/all-resonator-multiplexer/blob/master/topo_example1.png)
+![Topology 1](https://github.com/Uyon46/all-resonator-multiplexer/blob/master/topo_example1.png)
+
 ### Specificatiion
 
 * _Channel 1_: Passband: (−1.0, −0.75); Return loss level: 20dB;
