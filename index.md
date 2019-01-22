@@ -3,43 +3,15 @@ layout: default
 ---
 
 
-# Description
+# Examples list
 
-[Example1](./Example.md).
+[Example1](./Example1.md).
+[Example2](./Example2.md).
+[Example3](./Example3.md).
+[Example4](./Example4.md).
+[Example5](./Example5.md).
+[Example6](./Example6.md).
 
-## Example 1
-![topo_example1](https://github.com/Uyon46/all-resonator-multiplexer/raw/master/topo_example1.jpg)
-
-The example 1 is a 16-resonator multiplexer with symmet-rical Chebyshev responses, which was described in [1]. The normalized specifications are 
-
-* _Channel 1_: Passband: (−1.0, −0.75); Return loss level: 20dB;
-* _Channel 2_: Passband: (−0.417, −0.167); Return loss lev-el: 20dB;
-* _Channel 3_: Passband: (0.167, 0.417); Return loss level: 20dB;
-* _Channel 4_: Passband: (0.75, 1.0); Return loss level: 20dB;
-* Isolation levels within passband are better than 30dB.
-
-The channel filter coupled with P2 occupies the Channel 4 and the channel filter coupled with P3 occupies the Channel 3. The channel filters connected with P4 and P5 are symmetric to that of P3 and P2, respectively. The external quality factors are calculated in advance, which are qe1 = 1.8628, qe2 = qe3 = qe4 = qe5 = 7.4512.
-
-Based on the normalized specification, the objective function is defined as
-
-***
-
-## Example 2
-
-![topo_example2](https://github.com/Uyon46/all-resonator-multiplexer/raw/master/example2.jpg)
-
-Example 2 is a 10-resonator diplexer with asymmetric channel responses. The topology was introduced in [2]. The normalized specifications are
-
-* _Channel 1_: Passband: (−1, −0.661); Return loss level: 20dB.
-* _Channel 2_: Passband: (0.709, 1.0); Return loss level: 20dB. 
-* Isolation levels within passbands are better than 80dB.
-
-The branch coupled with P2 occupies the Channel 1 while the one coupled with P3 occupies the Channel 2. 
-The external quality factors are qe1 = 3.0818, qe2 = 5.7326 and qe3 = 6.6648. 
-
-Based on the normalized specification, the objective function is defined as
-
-***
 
 ## Example 3
 
