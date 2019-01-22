@@ -22,7 +22,7 @@ The channel filter coupled with P2 occupies the Channel 4 and the channel filter
 
 Based on the normalized specification, the objective function is defined as
 
-***
+![obj1](https://github.com/Uyon46/all-resonator-multiplexer/raw/master/costfunc1_f.png)
 
 
 
