@@ -17,13 +17,7 @@ The example 1 is a 16-resonator multiplexer with symmet-rical Chebyshev response
 
 The channel filter coupled with P2 occupies the Channel 4 and the channel filter coupled with P3 occupies the Channel 3. The channel filters connected with P4 and P5 are symmetric to that of P3 and P2, respectively. The external quality factors are calculated in advance, which are qe1 = 1.8628, qe2 = qe3 = qe4 = qe5 = 7.4512.
 
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
 
-$$ a+b=1 $$
-
-$$\[\begin{array}{c}{f_1} = \frac{{\max (P{B_1} - ( - 20),0)}}{{20}} + \frac{{\max (P{B_2} - ( - 20),0)}}{{20}}\\ + \frac{{\max (P{B_3} - ( - 20),0)}}{{20}} + \frac{{\max (P{B_4} - ( - 20),0)}}{{20}}\\ + \frac{{\max (I{S_1} - ( - 30),0)}}{{30}} + \frac{{\max (I{S_2} - ( - 30),0)}}{{30}}\end{array}\]$$
-### Figure of topology
 
 ![topo_example1](https://github.com/Uyon46/all-resonator-multiplexer/raw/master/topo_example1.jpg)
 
