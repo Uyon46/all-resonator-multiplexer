@@ -1,4 +1,4 @@
-![topo_example3](https://github.com/Uyon46/all-resonator-multiplexer/raw/master/example3.jpg)
+![topo_example3](https://github.com/Uyon46/all-resonator-multiplexer/raw/master/topo_example2.jpg)
 
 Example 3 is a 9-resoantor diplexer with cross-couplings in two channels which make the optimization more difficult than the first two examples. This topology was proposed in [3]. The normalized specifications are 
 
