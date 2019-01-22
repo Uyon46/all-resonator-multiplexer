@@ -32,6 +32,8 @@ The channel filter coupled with P2 occupies the Channel 4 and the channel filter
 
 Based on the normalized specification, the objective function is defined as
 
+$ e = m c^2 $ 
+
 ![](http://latex.codecogs.com/gif.latex?\\frac{\\partial J}{\\partial \\theta_k^{(j)}}=\\sum_{i:r(i,j)=1}{\\big((\\theta^{(j)})^Tx^{(i)}-y^{(i,j)}\\big)x_k^{(i)}}+\\lambda \\xtheta_k^{(j)})
 
 
